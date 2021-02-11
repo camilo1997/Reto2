@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="5c61a283b577c2b8c3792dff2e430ba5db352354c4c16751a66caecb29453436.html">Registro En Utest</a></span>
+                > <span class="truncate-60"><a
+                    href="84bb44243daafef5339b9a8175e539cb511ddd7d51c0ec509073082fc5646343.html">Registro de datos </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-02-2021 14:57</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registro En Utest </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario, quiero registar mis datos en utest
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0218fdbc5052f69d3f1f3166bb7e2fb1aaba25c78a7c7745c14ed1ccd35fa8dc.html">Scenario2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Registro de datos
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Cucumber exception: Arity mismatch: Step Definition 'co.com.choucair.certification.retoFinal.stepdefinitions.ChoucairAcademyStepDefinitions.registroSusDatosCorrectamente(String) in file:/C:/Users/Usuario/IdeaProjects/co.com.choucair.certification.retoFinal/build/classes/java/test/' with pattern [^registro sus datos correctamente$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. </span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>cucumber.runtime.CucumberException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource3641645272017845690.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="305c975c41e50b21327224a2cfcf8ad679e44e88302d786741ab42932daf182c.png" title=" Given que un usuario quiere registrar sus datos en utest" width="1920"/>
+                <img src="305c975c41e50b21327224a2cfcf8ad679e44e88302d786741ab42932daf182c.png" title=" User open up" width="1920"/>
+                <img src="305c975c41e50b21327224a2cfcf8ad679e44e88302d786741ab42932daf182c.png" title=" user opens the Utest page" width="1920"/>
+                <img src="305c975c41e50b21327224a2cfcf8ad679e44e88302d786741ab42932daf182c.png" title=" User open up (completed)" width="1920"/>
+                <img src="b48459d615ca7214250ce2cd0f1924b2ea1ce3460f40cd33a22a4ab2f3548632.png" title=" User boton registro" width="1920"/>
+                <img src="b48459d615ca7214250ce2cd0f1924b2ea1ce3460f40cd33a22a4ab2f3548632.png" title=" user clicks on boton que lleva al registro nuevo" width="1920"/>
+                <img src="b48459d615ca7214250ce2cd0f1924b2ea1ce3460f40cd33a22a4ab2f3548632.png" title=" User boton registro (completed)" width="1920"/>
+                <img src="b48459d615ca7214250ce2cd0f1924b2ea1ce3460f40cd33a22a4ab2f3548632.png" title=" Given que un usuario quiere registrar sus datos en utest (completed)" width="1920"/>
+                <img src="847c4df6271499ee5faba6672806dbce8c26308a8c1f0ccafea32d9518b91368.png" title=" When el usuario registre sus datos" width="1920"/>
+                <img src="847c4df6271499ee5faba6672806dbce8c26308a8c1f0ccafea32d9518b91368.png" title=" User registro" width="1920"/>
+                <img src="847c4df6271499ee5faba6672806dbce8c26308a8c1f0ccafea32d9518b91368.png" title=" user enters 'Camilo' into Donde se escribe el nombre" width="1920"/>
+                <img src="9bd329d01d057939ae81eee1dfb21ce34241b0d5ca779a82f7e975ae46c3acba.png" title=" user enters 'lopera' into Donde se escribe el apellido" width="1920"/>
+                <img src="11a2894bf7e0e26e4e96d6c40e2bbdc464d5e1fb256d6872cb0d9ebd215ff418.png" title=" user enters 'camilolopera1@gmail.com' into Donde se escribe el correo" width="1920"/>
+                <img src="2b1c0fbd35e7a297864aedee43bc174630d3d2fa27fd53dda0a66400bbd92013.png" title=" user select August on Donde se selecciona el mes" width="1920"/>
+                <img src="889a4ae87a080246863bbd2820d9ca01530bb3082f138ca4ae3a54af2a5c1eb8.png" title=" user select 29 on Donde se selecciona el dia" width="1920"/>
+                <img src="74c7dd4b471082c4142c4be7245c1056f4b91f3e2ebd27823074ecfe5f4e16aa.png" title=" user select 1997 on Donde se selecciona el A&Atilde;&lsquo;o" width="1920"/>
+                <img src="38c6a859a419f424757a255ef9b0bf4ba4c3a088f4b503c6dcc03ce4f28bd1b7.png" title=" user clicks on Donde se busca el idioma" width="1920"/>
+                <img src="4bcfa744a7e18a8212c56b2fd14ddce18b33189c487c140d5686331028a6dcf6.png" title=" user enters 'Spanish' into Donde se busca el idioma" width="1920"/>
+                <img src="755db8523df837880272e3e0436cfa0244c0d3dc0251a64557b5574c6d6c2bfd.png" title=" user clicks on Donde se selecciona el idioma" width="1920"/>
+                <img src="cf84b608fab1acc9a729a77eeadce8571ec4f735910eec6d695ae2e06f0ec901.png" title=" user clicks on Boton siguiente formulario" width="1920"/>
+                <img src="0a1cadc18ad8e6f330550ecd20104bf9de18a5d9b1e7d5801f61771677588cd3.png" title=" user clicks on Donde se selecciona la ciudad" width="1920"/>
+                <img src="dc31b0316b0536712e1bf5b48bc9d9df56a7237cc6369de8e4ca7c1f0384fff9.png" title=" user enters '050015' into Donde se coloca el codigo postal" width="1920"/>
+                <img src="bcd1da93f1da7f0183685eda376f08304e60113073603532ae646b7e39a00bf0.png" title=" user clicks on Donde se coloca el pais" width="1920"/>
+                <img src="a1b4e2c72cf769bdc223e27624e7c54ba8006772a07968ed34d6320e6d56718e.png" title=" user enters 'Colombia' into Donde se busca el pais" width="1920"/>
+                <img src="ad5933a3b480e02d44e30d82c1d3afb6a21e60d93037a6227b45ff496d81a9a6.png" title=" user clicks on Donde se selecciona el pais" width="1920"/>
+                <img src="b8d35e5533b46ca6923f76dc195d13c45b317bf97ee732d87547fead02fecdf1.png" title=" user clicks on Boton siguiente formulario" width="1920"/>
+                <img src="79654da17e3836c3856b736a5cc5f616f2ef24ee2f25a0aaeea7a225b300a2ed.png" title=" user clicks on Donde se coloca el sistema" width="1920"/>
+                <img src="a4f40b43264fa6ff176e793cee279575cb1c0120a955eab69b8a3e2bae43b65c.png" title=" user enters 'Windows' into Donde se busca el sistema" width="1920"/>
+                <img src="5b9de0a4c23fd85d45e7aa3e649af6dce5918d654e764fb2e107f18b39d91b00.png" title=" user clicks on Donde se selecciona el sistema" width="1920"/>
+                <img src="310ea138ee99b15609559b3e6e8bb7586952475edd42b4dc9e89d6ff7c9c76ef.png" title=" user clicks on Donde se coloca la version" width="1920"/>
+                <img src="21b5e8ad2f3b370ead2537e97bbd8c467c205de956f82fe5c020d15e0367b088.png" title=" user enters 'Windows 10 Home' into Donde se busca version" width="1920"/>
+                <img src="8ef5d1c2a95d3f3aa146ace7e6d8f4ff38cbdb720ee8ed796a6e0a40161cbcaa.png" title=" user clicks on Donde se selecciona la version" width="1920"/>
+                <img src="ceff614e27f5638d385adc6e08c81e8ec3739d5e729c3993d1a1d61552076afa.png" title=" user clicks on Donde se coloca el lenguaje" width="1920"/>
+                <img src="9847e6199d7276996fafa2de9855f1862c533275994ddd619df5e1167442d131.png" title=" user enters 'Spanish' into Donde se busca el lenguaje" width="1920"/>
+                <img src="74d8b4d7d1a35da4d9e42516f75aa181f21a9d602d1560fabee40963b0ad36b5.png" title=" user clicks on Donde se selecciona el lenguaje" width="1920"/>
+                <img src="c6ee4de01733960a2155af661364741a3f5323393f489444661fc5b208708f18.png" title=" user clicks on Donde se coloca el movil" width="1920"/>
+                <img src="f55f9b467636a1cf0e6af4449cc08ef94351898b8952ae992a90db747d0b524c.png" title=" user enters 'Xiaomi' into Donde se busca el movil" width="1920"/>
+                <img src="40b4b814bc02b65d9f2b39fe0337b386f06fd5d7a7152eea84de4366bd012a04.png" title=" user clicks on Donde se selecciona el movil" width="1920"/>
+                <img src="4fcd3af7b95f0f7de7963d432c6025aa4c7430e91664c2521b782503fe6eb3bd.png" title=" user clicks on Donde se coloca el modelo" width="1920"/>
+                <img src="971d119345b0d02831909df51e056c4ce09359291cffd85af7236ff71de49d92.png" title=" user enters 'MI 9T' into Donde se busca el modelo" width="1920"/>
+                <img src="c729682bc0746c13eaf846dea2c8deaa8783007fc4b092c74927cc2c3344d969.png" title=" user clicks on Donde se selecciona el modelo" width="1920"/>
+                <img src="7149778db4a4b7abf65d317ec4dd3b9f1f4148461369e251e88417c6a2f4a6d0.png" title=" user clicks on Donde se coloca el sistema" width="1920"/>
+                <img src="2f888c09f6c223a718f7d59671eb96fd0299ed43f34f134204e9c1b50604b48e.png" title=" user enters 'Android 10' into Donde se busca el sistema" width="1920"/>
+                <img src="904ac44aeb4d045fc1bff689c6af93c6e238c3d43e9a6d74a4fbc52a7d035a81.png" title=" user clicks on Donde se selecciona el sistema" width="1920"/>
+                <img src="0045399e9bc7f476b69bf017289eea7bc90baab62a4a2cd399185e76f919c7ce.png" title=" user clicks on Boton siguiente formulario" width="1920"/>
+                <img src="8df5435bf69231c4458982b8959cefa362eaeca4cff2b842edb37af682a823e4.png" title=" user enters 'A123789456a*' into Donde se ingresa la contrase&Atilde;&plusmn;a" width="1920"/>
+                <img src="ded1938937d8faa2f141737900f2cd3976615b5d79a2eccf27b88c904e5ca148.png" title=" user enters 'A123789456a*' into Donde confirma la contrase&Atilde;&plusmn;a" width="1920"/>
+                <img src="2b993611785443f168baa7eabfe23801e9d945eb72c8d35e42dbcc719d832ee8.png" title=" user clicks on Donde se confirma recibir correos de informacion " width="1920"/>
+                <img src="76dfef4b2ce64ca5555f67c65a75c616634cd6304a4e53432992fc34d3d2d0c2.png" title=" user clicks on Donde se confirman los terminos" width="1920"/>
+                <img src="b366ef8a8f002a3b395c43a3aa47c5a583c2fc5bea8722c420728ef6479c6eb7.png" title=" user clicks on Donde confirman las politicas y privacidad" width="1920"/>
+                <img src="b366ef8a8f002a3b395c43a3aa47c5a583c2fc5bea8722c420728ef6479c6eb7.png" title=" User registro (completed)" width="1920"/>
+                <img src="b366ef8a8f002a3b395c43a3aa47c5a583c2fc5bea8722c420728ef6479c6eb7.png" title=" When el usuario registre sus datos (completed)" width="1920"/>
+                <img src="b366ef8a8f002a3b395c43a3aa47c5a583c2fc5bea8722c420728ef6479c6eb7.png" title=" Then registro sus datos correctamente: <span class='error-color'>ERROR</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
